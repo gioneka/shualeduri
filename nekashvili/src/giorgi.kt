@@ -5,8 +5,7 @@ fun main() {
     print("ამ ტრანსპორტში ეტევა $z ადამიანი, ფასია $y ლარი და მოძრაობს $x")
 }
 enum class Transport(val fasi: Float,val modzraoba:String,val moculoba: Int) {
-// კონსტრუქტორი
-    // აქ enum-ებს გადაეცემა პარამეტრი weather და holiday
+    
 
     AVTOBUSI(0.20F,"ნელა",52),
     MARSHUTKA(0.8F,"საშუალო",25),
